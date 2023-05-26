@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Pacifico&display=swap');
+
+body{
+  background: linear-gradient(22deg, #635858 30%, #eeeaea 100% );
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#root{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap:100px;
+}
+.container{
+  width: 300px;
+  height: auto;
+  background: linear-gradient(180deg, #dd3b3b 0%, #490606 100% );
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 3px 3px 10px black
+}
+
+.container h1{
+  font-family: 'Pacifico', sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  text-align: center;
+  color:#ffffff
+}
+
+.container img{
+  width: 85%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px rgb(0, 0, 0);
+}
+
+.especie{
+  font-family: 'Raleway', sans-serif;;
+  font-weight: 300;
+  font-size: 20px;
+  align-self:flex-start;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  color: white;
+
+}
+
+.genero{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  align-self:flex-start;
+  margin-bottom: 0px;
+  color: white;
+  align-self:center;
+}
+
+.origen{
+  font-family: 'Raleway', sans-serif;;
+  font-weight: 100;
+  font-size: 17px;
+  align-self:flex-start;
+  margin-left: 15px;
+  color: white;
+  
+}

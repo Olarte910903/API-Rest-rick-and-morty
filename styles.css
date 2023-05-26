@@ -11,6 +11,16 @@ body{
   box-sizing: border-box;
 }
 
+body h1{
+  font-family: 'Raleway', serif;
+  font-weight: 800;
+  font-size: 60px;
+  text-align: center;
+  color:#d80808;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 #root{
   display: flex;
   flex-wrap: wrap;
